@@ -1,2 +1,42 @@
-/* Jaune CV : #FECA07 */
+/*
+	Jaune CV : #FECA07
+	Gris texte : #4A4A4A
+*/
 
+body {
+	display: flex;
+	margin: 0;
+	font-family: Noto Sans, sans-serif;
+	font-weight: 700;
+	color: #4A4A4A
+}
+
+aside {
+	background-color: #FECA07;
+	width: 40%;
+	align-content: space-between;
+}
+
+#surround_pic {
+
+}
+
+#pic_containter {
+	overflow: hidden;
+}
+
+#pic_containter > img {
+	width: 100%;
+	height: 100%;
+}
+
+.bandeau_gauche {
+	background-color: #4A4A4A;
+	color: #FECA07;
+	padding-top: 2%;
+}
+
+.bandeau_gauche > h1 {
+	margin: 0;
+	text-align: center;
+}
