@@ -12,7 +12,6 @@ body {
 	font-size: 17px;
 	color: #565656;
 	width: 100%;
-	text-align: justify;
 }
 
 aside {
@@ -100,6 +99,10 @@ section {
 	padding-bottom: 4%;
 }
 
+p {
+	text-align: justify;
+}
+
 .parts {
 	width: 80%;
 	margin-left: 10%;
@@ -111,13 +114,11 @@ section {
 }
 
 #alexis {
-	font-size: 5em;
 	color: #00897B;
 }
 
 #chalande {
 	margin-left: 1%;
-	font-size: 5em;
 	color: black;
 }
 
@@ -218,51 +219,50 @@ section {
 @media (max-width: 414px) {
 	body {
 		flex-direction: column;
+		font-size: 12px;
 	}
 
 	aside, section {
 		width: 100%;
 	}
-
-
-}
-
-@media (max-width: 768px) {
+	
 	.arround_dot {
-		width: 10px;
-		height: 10px;
-		margin-left: 10px; 
-		border: 2px solid #00897B;
+		width: 6px;
+		height: 6px;
+		margin-left: 3px; 
 		border-radius: 50%;
 		margin-top: 15%;
 		position: relative;
 	}
 
 	.dot {
-		background-color: #00897B;
-		border-radius: 50%;
-		width: 5px;
-		height: 5px;
+
+		width: 3px;
+		height: 3px;
 		margin-left: 7px;
 		margin-top: 17%;
 	}
 
 	.dot_with_arround {
 		position: absolute;
-		background-color: #00897B;
-		border-radius: 50%;
-		width: 5px;
-		height: 5px;
-		left: 1px;
-		top: 1px;
+		width: 3px;
+		height: 3px;
 	}
 
-	body {
+	.content h2 {
+		font-size: 20px;
+	}
+
+	.content h3 {
 		font-size: 15px;
 	}
 
-	.icon_right {
-		color: #00897B;
-		font-size: 25px;
+	.description {
+		margin-left: 2%;
+		width: 68%;
 	}
+}
+
+@media (max-width: 768px) {
+	
 }
