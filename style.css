@@ -55,12 +55,12 @@ aside {
 	height: auto;
 }
 
-.bandeau_gauche > h1 {
+.banner_gauche > h1 {
 	color: white;
 	text-align: center;
 }
 
-.bandeau_gauche {
+.banner_gauche {
 	background-color: #004D40;
 	padding-top: 0.5em;
 	padding-bottom: 0.01em;
@@ -109,20 +109,16 @@ p {
 	margin-top: 10%;
 }
 
-#nom {
+#name {
 	display: flex;
-}
-
-#alexis {
-	color: #00897B;
-}
-
-#chalande {
-	margin-left: 1%;
 	color: black;
 }
 
-#trait_jaune {
+#name b {
+	color: #00897B;
+}
+
+#yellow_line {
 	height: 2px;
 	background-color: #00897B;
 	width: 10%;
@@ -216,7 +212,7 @@ p {
 	width: 50%;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
 	body {
 		flex-direction: column;
 		font-size: 12px;
@@ -225,7 +221,7 @@ p {
 	aside, section {
 		width: 100%;
 	}
-	
+
 	.arround_dot {
 		width: 10px;
 		height: 10px;
@@ -263,12 +259,24 @@ p {
 		width: 68%;
 	}
 
-	#nom {
-		font-size: 21px;
+	#name h1 {
+		font-size: 30px;
+	}
+
+	.banner_gauche > h1 {
+		font-size: 30px;
+	}
+	
+	#desc h2 {
+		font-size: 20px;
+	}
+
+	.icon_left, .icon_right {
+		font-size: 30px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.arround_dot {
 		width: 10px;
 		height: 10px;
@@ -276,6 +284,10 @@ p {
 		border-radius: 50%;
 		margin-top: 15%;
 		position: relative;
+	}
+	
+	aside p {
+		font-size: 16px;
 	}
 
 	.dot {
@@ -295,5 +307,18 @@ p {
 
 	.icon_left {
 		font-size: 40px;
+	}
+
+	.content h2 {
+		font-size: 23px;
+	}
+
+	.content h3 {
+		font-size: 18px;
+	}
+
+	.description {
+		margin-left: 2%;
+		width: 68%;
 	}
 }
