@@ -55,7 +55,7 @@ aside {
 	height: auto;
 }
 
-.banner_gauche > h1 {
+.banner_gauche > h2 {
 	color: white;
 	text-align: center;
 }
@@ -135,7 +135,7 @@ p {
 	margin-left: 1%;
 }
 
-.title > h1 {
+.title > h2 {
 	color: black;
 	font-weight: 900;
 	font-size: 200%;
@@ -246,11 +246,11 @@ p {
 		top: 1px;
 	}
 
-	.content h2 {
+	.content h3 {
 		font-size: 20px;
 	}
 
-	.content h3 {
+	.content h4 {
 		font-size: 15px;
 	}
 
@@ -263,11 +263,11 @@ p {
 		font-size: 30px;
 	}
 
-	.banner_gauche > h1 {
+	.banner_gauche > h2 {
 		font-size: 30px;
 	}
 	
-	#desc h2 {
+	#desc h3 {
 		font-size: 20px;
 	}
 
@@ -309,11 +309,11 @@ p {
 		font-size: 40px;
 	}
 
-	.content h2 {
+	.content h3 {
 		font-size: 23px;
 	}
 
-	.content h3 {
+	.content h4 {
 		font-size: 18px;
 	}
 
