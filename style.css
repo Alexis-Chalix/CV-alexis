@@ -55,12 +55,12 @@ aside {
 	height: auto;
 }
 
-.banner_gauche > h2 {
+.banner_left > h2 {
 	color: white;
 	text-align: center;
 }
 
-.banner_gauche {
+.banner_left {
 	background-color: #004D40;
 	padding-top: 0.5em;
 	padding-bottom: 0.01em;
@@ -114,7 +114,7 @@ p {
 	color: black;
 }
 
-#name b {
+#name span {
 	color: #00897B;
 }
 
@@ -204,6 +204,10 @@ p {
 	flex-direction: column;
 }
 
+#recommendations_content {
+	flex-direction: row;
+}
+
 .row {
 	display: flex;
 }
@@ -263,7 +267,7 @@ p {
 		font-size: 30px;
 	}
 
-	.banner_gauche > h2 {
+	.banner_left > h2 {
 		font-size: 30px;
 	}
 	
